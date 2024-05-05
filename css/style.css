@@ -89,5 +89,14 @@ tr:hover{
     background-color: rgb(246, 247, 193);
 }
 
+.contacts_form label{
+    font-size: 1.8em;
+}
+
+.input[type=text]{
+    width: 60%;
+    padding: 12px 16px;
+}
+
 
 
