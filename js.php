@@ -28,6 +28,15 @@
         <script>
             document.write(5 * 3);
         </script>
+
+        <br><br>
+
+        <script>
+            window.alert('Your database is ready!!');
+        </script>
+
+        <br><br>
+        <script>console.log('Add information here');</script>
         
 
         <script src="script.js"></script>
