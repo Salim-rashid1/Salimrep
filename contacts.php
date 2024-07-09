@@ -11,7 +11,8 @@
     <?php 
     require_once ("includes/db_connect.php"); 
     include_once ("templates/nav.php");
-    include_once ("templates/header.php");
+    
+
     if(isset($_POST["send_message"])){
 
         $fn= mysqli_real_escape_string($conn,$_POST["fullname"]);
@@ -73,10 +74,10 @@ placeholder="Enter your message here" name="message" rows="4" cols="50">
 <input type="submit" name="send_message" value="Send Message">
 </form>
 </div>
-<?php include_once ("templates/sidebar.php"); ?>
+
 </div>
 <div class="footer" style="margin-block-start: 800px;">
-copywrite CONSTRUCTION CO 2024 &copy; All rights reserved
+copywrite SALIM'S RESTAURANT AND CO &copy; All rights reserved
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
