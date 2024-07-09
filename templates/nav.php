@@ -4,7 +4,7 @@
             
             
             <div class="toplink-right">
-                <a href="signup.html">signup</a>
-                <a href="signin.html">signin</a>
+                <a href="signup.php">signup</a>
+                <a href="signin.php">signin</a>
             </div>
         </div>
