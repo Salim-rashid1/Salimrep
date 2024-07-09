@@ -11,7 +11,7 @@
     <?php 
     require_once ("includes/db_connect.php"); 
     include_once ("templates/nav.php"); 
-    include_once ("templates/header.php");
+    
 
     if(isset($_POST["save_details"])){
 
@@ -52,7 +52,7 @@ if ($conn->query($insert_message) === TRUE) {
 
             </form>
         </div>
-        <?php include_once ("templates/sidebar.php"); ?>
+        
     </div>
     <div class="footer" style="margin-block-start: 400px;">
         copywrite CONSTRUCTION CO 2024 &copy; All rights reserved
