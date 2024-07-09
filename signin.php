@@ -11,7 +11,7 @@
 <?php include_once ("templates/nav.php"); ?>
     
 
-<?php include_once ("templates/header.php"); ?>
+
 
     <div class="row:after">
         <div class="content" >
@@ -30,7 +30,7 @@
                 <input type="button" value="Sign in">
             </form>
         </div>
-        <?php include_once ("templates/sidebar.php"); ?>
+        
     </div>
     <div class="footer" style="margin-block-start: 400px;">
         copywrite CONSTRUCTION CO 2024 &copy; All rights reserved
